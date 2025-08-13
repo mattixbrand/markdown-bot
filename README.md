@@ -41,7 +41,7 @@ A powerful Telegram bot that converts text, HTML, and URLs to beautifully format
    ```
 
 4. **Set up environment variables**
-   
+
    Create a `.env` file in the project root:
 
    ```env
@@ -49,7 +49,7 @@ A powerful Telegram bot that converts text, HTML, and URLs to beautifully format
    ```
 
 5. **Configure keywords (optional)**
-   
+
    Edit `keywords.json` to add your custom keyword-to-URL mappings:
 
    ```json
@@ -135,9 +135,9 @@ You can also run the bot using Docker:
 
 ### Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `YOUR_BOT_TOKEN` | Telegram Bot Token from BotFather | Yes |
+| Variable         | Description                       | Required |
+| ---------------- | --------------------------------- | -------- |
+| `YOUR_BOT_TOKEN` | Telegram Bot Token from BotFather | Yes      |
 
 ### Keywords Configuration
 
